@@ -1,4 +1,5 @@
 class Author 
+
   attr_accessor :name 
   
   @@total = 0
@@ -28,5 +29,4 @@ class Author
   def self.post_count
     @@total
   end 
-
 end

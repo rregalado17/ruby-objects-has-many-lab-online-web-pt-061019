@@ -1,4 +1,5 @@
 class Post 
+
   attr_accessor :author, :title
   
   @@all = []
@@ -22,5 +23,5 @@ class Post
   def self.all   #class method that returns an array of all posts created
     @@all 
   end 
-    
+
 end
